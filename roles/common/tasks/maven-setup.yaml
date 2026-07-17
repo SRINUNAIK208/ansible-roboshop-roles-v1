@@ -1,0 +1,16 @@
+
+  - name: install maven 
+    ansible.builtin.dnf:
+      name: maven
+      state: installed 
+      remote_src: yes 
+
+  - name: install dependencies
+    ansible.builtin.command: mvn clean package  
+    args:
+      chdir: /app 
+
+  - name: move the target from one place to another place 
+    ansible.builtin.command: mv target/shipping-1.0.jar shipping.jar 
+    args:
+      chdir: /app 

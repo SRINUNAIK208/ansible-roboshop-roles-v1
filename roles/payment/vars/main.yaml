@@ -1,0 +1,3 @@
+CART_HOST: cart.srinunayak.online 
+USER_HOST: user.srinunayak.online
+RABBITMQ_HOST: rabbitmq.srinunayak.online
