@@ -1,14 +1,12 @@
-
+  - name: import app setup 
+    include_role: 
+      name: common
+      tasks_from: app-setup
   
   - name: import maven setup 
     include_role:
       name: common
       tasks_from: maven-setup 
-
-  - name: import app setup 
-    include_role: 
-      name: common
-      tasks_from: app-setup
 
   - name: install mysql client 
     ansible.builtin.dnf:
