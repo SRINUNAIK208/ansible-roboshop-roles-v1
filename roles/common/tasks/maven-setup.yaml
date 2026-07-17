@@ -3,7 +3,7 @@
     ansible.builtin.dnf:
       name: maven
       state: installed 
-      remote_src: yes 
+      
 
   - name: install dependencies
     ansible.builtin.command: mvn clean package  
