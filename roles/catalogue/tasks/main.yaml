@@ -1,12 +1,12 @@
-  - name: import nodejs setup
-    include_role:
-      name: common 
-      tasks_from: nodejs-setup
-
   - name: import app setup 
     include_role:
       name: common
       tasks_from: app-setup
+  
+  - name: import nodejs setup
+    include_role:
+      name: common 
+      tasks_from: nodejs-setup
 
   - name: copy mongodb repo 
     ansible.builtin.copy:
