@@ -1,13 +1,12 @@
-
-  - name: import python setup 
-    include_role:
-       name: common
-       tasks_from: python-setup
-
   - name: import app setup 
     include_role:
        name: common
        tasks_from: app-setup 
+       
+  - name: import python setup 
+    include_role:
+       name: common
+       tasks_from: python-setup
 
   - name: import systemd setup 
     include_role:
