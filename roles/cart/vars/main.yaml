@@ -1,2 +1,2 @@
-REDIS_HOST: redis.srinunayak.online
-CATALOGUE_HOST: catalogue.srinunayak.online
+REDIS_HOST: redis-{{ env }}.srinunayak.online
+CATALOGUE_HOST: catalogue.backend-{{ env }}.srinunayak.online

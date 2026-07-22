@@ -1,2 +1,2 @@
-CART_HOST: cart.srinunayak.online 
-MYSQL_HOST: mysql.srinunayak.online
+CART_HOST: cart.backend-{{ env }}.srinunayak.online 
+MYSQL_HOST: mysql-{{ env }}.srinunayak.online

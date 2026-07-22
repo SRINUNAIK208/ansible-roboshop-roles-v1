@@ -1,2 +1,2 @@
-REDIS_HOST: redis.srinunayak.online 
-MONGODB_HOST: mongodb.srinunayak.online 
+REDIS_HOST: redis-{{ env }}.srinunayak.online 
+MONGODB_HOST: mongodb-{{ env }}.srinunayak.online 

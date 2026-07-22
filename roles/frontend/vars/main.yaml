@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.srinunayak.online
-CART_HOST: cart.srinunayak.online
-SHIPPING_HOST: shipping.srinunayak.online
-USER_HOST: user.srinunayak.online
-PAYMENT_HOST: payment.srinunayak.online
+CATALOGUE_HOST: catalogue.backend-{{ env }}.srinunayak.online
+CART_HOST: cart.backend-{{ env }}.srinunayak.online
+SHIPPING_HOST: shipping.backend-{{ env }}.srinunayak.online
+USER_HOST: user.backend-{{ env }}.srinunayak.online
+PAYMENT_HOST: payment.backend-{{ env }}.srinunayak.online
